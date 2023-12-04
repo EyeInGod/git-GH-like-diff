@@ -1,0 +1,18 @@
+sudo: false
+
+language: node_js
+
+node_js:
+  - '10'
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+script:
+  - "npm test"
+  - "npm run build && npm run size"
+
+after_script:
+  - cat ./coverage/lcov.info | ./node_modules/codecov/bin/codecov
