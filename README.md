@@ -92,4 +92,4 @@ Reference diff2html docs for [extra configuration](https://github.com/rtfpessoa/
 
 ## LICENSE
 
-MIT © [Peng Jie](https://github.com/neighborhood999)
+MIT © [EyeInGod](https://github.com/EyeInGod)
